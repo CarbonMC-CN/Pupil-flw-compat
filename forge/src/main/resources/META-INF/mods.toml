@@ -28,7 +28,14 @@ side = "CLIENT"
 
 [[dependencies.irisflw]]
 modId="oculus"
-mandatory=true
+mandatory=false
+versionRange="[1.7.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.irisflw]]
+modId="pupil"
+mandatory=false
 versionRange="[1.7.0,)"
 ordering="NONE"
 side="CLIENT"
